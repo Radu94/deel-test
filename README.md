@@ -124,3 +124,11 @@ When you have finished the assignment, create a github repository and send us th
   
 
 Thank you and good luck! 🙏
+
+
+## Things left to improve:
+* adding a test DB in order to write some tests (API and unit tests)
+* adding data builders for seeding the test DB and inserting test data for each test case
+* adding tear down scripts for after tests
+* cleaner error handling for meaningful error messages
+* finishing up last two endpoints

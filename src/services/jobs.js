@@ -40,9 +40,6 @@ const payJob = async (profileId, jobId) => {
     await transaction.rollback();
     throw error;
   }
-
-
-
 }
 
 module.exports = { getUnpaidJobs, payJob };
